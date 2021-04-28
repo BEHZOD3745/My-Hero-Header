@@ -1,0 +1,268 @@
+@import 'fonts.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 930px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    font-family: "Poppins";
+    background:  #F3F3F3;
+}
+/* header start */
+.header{
+    background: #926FF6;
+    min-height: 500px;
+   
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    
+}
+.link{
+    
+    font-size: 11.6912px;
+    padding: 50px 32px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+.header_min_title{
+    color: #FFE074;
+    font-size: 12.2707px;
+    text-align: center;
+
+}
+.header_title{
+    color: #FFFFFF;
+    font-size: 62.797px;
+    text-align: center;
+
+}
+.header_txt{
+    color: #FFFFFF;
+    font-size: 16.6015px;
+    text-align: center;
+
+}
+.header_content{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+/* header end */
+/* info start */
+.info{
+    padding: 164px 0 0;
+}
+.about{
+    font-size: 12.2707px;
+    /* max-width: 161px;
+    width: 100%;
+    min-height: 9px; */
+    color: #FFAE00;
+}
+.info_title{
+    font-size: 24px;
+    max-width: 465px;
+    width: 100%;
+    /* min-height: 56px; */
+    color: #4F4F4F;
+    margin: 15px 0;
+}
+.info_txt{
+    font-size: 16px;
+    max-width: 419px;
+    width: 100%;
+    /* min-height: 98px; */
+    color: #4F4F4F;
+}
+.info_one{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 164px 0 0; */
+}
+
+/* .image{
+    margin: 0 0 105px;
+} */
+.play{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+}
+.h4{
+    color:#F3849F;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+/* info end */
+/* round start */
+.round{
+    /* margin-bottom: 106px; */
+    padding: 105px 0;
+}
+.box{
+    display: flex;
+    background: #fff;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 70px 30px;
+   /* margin: 73px 0 ; */
+   
+}
+.rounds_title{
+    /* max-width: 122px;
+    width: 100%; */
+    font-size: 16.5825px;
+    margin-bottom: 10px;
+    
+}
+.rounds_txt{
+    max-width: 220px;
+    width: 100%;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+
+/* round end */
+/* picture start */
+.list_picture{
+    display: flex;
+  margin-bottom: 44px;
+}
+/* .item_picture{
+    margin: 0 25px 0 0;
+   
+} */
+.picture_min_title{
+    margin-bottom: 15px;
+    color: #FFAE00;
+    font-size: 12px;
+}
+.picture_title{
+    margin-bottom: 22px;
+    color: #4F4F4F;
+    font-size: 24px;
+}
+.link_picture{
+    color:#828282 ;
+    font-size: 11px;
+    display: inline-block;
+    padding: 5px 18px;
+    transition: 600ms;
+}
+.link_picture:hover{
+    background: #F3849F;
+    color: #FFFFFF;
+    border-radius: 26px;
+}
+/* picture end */
+/* all start  */
+.all_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    
+}
+.all{
+    margin-bottom: 215px;
+}
+/* all end  */
+/* puzzles start */
+
+.puzzles{
+    background: #F7EEFF;
+    padding-bottom: 167px;
+    /* margin-bottom: 167px;
+   min-height: 668px;
+   padding-top: 114px; */
+ 
+}
+.puzzle_min_title{
+    font-size: 12px;
+    color: #FFAE00;
+   margin: 114px 0 15px;
+   text-align: center;
+   
+}
+.puzzle_title{
+    font-size: 24px;
+    color: #4F4F4F;
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+.puzzle{
+    /* margin-right: 31px; */
+    margin-bottom: 27px;
+}
+.puzzle_title2{
+    font-size: 10px;
+    color: #F3849F;
+    margin-bottom: 10px;
+}
+.puzzle_txt{
+    max-width: 290px;
+    width: 100%;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+.box_puzzle{
+    display: flex;
+    justify-content: space-between;
+}
+.puzzle_title3{
+    font-size: 10px;
+    color: #926FF6;
+    margin-bottom: 10px;
+}
+.puzzle_title4{
+    font-size: 10px;
+    color: #79CFFF;
+    margin-bottom: 10px;
+}
+
+/* puzzles end */
+/* footer start */
+footer{
+    background: #333333;
+    
+    width: 100%;
+    min-height: 154px;
+}
+.footer_txt{
+   padding-top: 51px;
+    color: #F7EEFF;
+    text-align: center;
+    font-size: 14px;
+   margin-bottom: 12px;
+}
+.share{
+    text-align: center;
+   
+}
+/* footer end */
