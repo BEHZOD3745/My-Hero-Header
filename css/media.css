@@ -119,13 +119,13 @@
     .link_picture{
         padding: 5px 10px;
     }
+    .rounds_title{
+        font-size: 13.5825px;
+        }
 }
 @media (max-width: 360px) {
     .header_title {
         font-size: 45px;
-    }
-    .rounds_title{
-    font-size: 13.5825px;
     }
 }
 @media (max-width: 320px) {
