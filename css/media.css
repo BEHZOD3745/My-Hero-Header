@@ -99,15 +99,15 @@
         margin-right: 20px;
     }
 }
-/* @media (max-width: 576px) {} */
+@media (max-width: 576px) {
+    .rounds_title{
+        font-size: 10.5825px;
+        }
+}
 @media (max-width: 414px) {
     .header_title {
         font-size: 50px;
     }
-    
-    .rounds_title{
-        font-size: 13.5825px;
-        }
 }
 /* @media (max-width: 412px) {} */
 @media (max-width: 375px) {
